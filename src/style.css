@@ -1,0 +1,59 @@
+body, p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  margin-top: 50px;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  box-shadow: 0 0 0 0 #ffff;
+  transition: all 3s ease 0s;
+}
+
+.btn:hover {
+  background-color: #0a58ca;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn-shadow {
+  box-shadow: 0 0 0 .25rem rgba(49, 132, 253, .5);
+  transition: all 3s ease 0s;
+}
+
+.card {
+  overflow: hidden;
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.collapse {
+  margin-top: 7px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 3s ease 0s;
+}
+
+.block {
+  max-height: 1000px;
+  transition: max-height 3s ease 0s;
+}
+
+
